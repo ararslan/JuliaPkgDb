@@ -69,5 +69,5 @@ where p.Owner = "JuliaStats"
     and v.Dependency = "DataArrays";
 ```
 
-You can run that in the SQLite REPL, from Julia using `SQLite.execute!`, or
+You can run that in the SQLite REPL, from Julia using `SQLite.query`, or
 however you want!
